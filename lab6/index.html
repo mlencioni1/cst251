@@ -1,13 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Lab X - Subject/Topic</title>
-	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<title>Lab 6 - More complicated Html</title>
+  <link rel="stylesheet" type="text/css" href="../css/site.css">
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
 </head>
 <body>
+	<div class="" id=content >
+		<h1>Lab 6: More complicated Html</h1>
+		<img src="img/matt.jpg" alt="Portrait">
+		<p> The goal of this lab is to dive further into classes
+		and id's in order to start adding CSS as well as diving into forms!</p>
+		<h2>Challenges</h2>
+		<p> A quick issue that occured was when I fist added i the CSS. Atom did
+		not realize I pasted in the CSS, so i had to edit it a bit, before the CSS was recognized. </p>
 
+		<h2>Results</h2>
+		<p> Look around! You are viewing the results of this lab! </p>
+	</div>
 
-<a href="../index.html">Back to Homepage</a>
+	<div class="Output" id=content>
+		<form action="https://www.google.com/search" method="GET" target="_blank">
+      <label>  Seach: <input name="q" type="text"> </label> <br>
+        <input type="Submit" value="I'm Feeling Lucky"> <br>
+      <label>Password: <input name="pw" type="password"> </label> <br>
+      <label> Biography: <textarea name="essay"> </textarea> <br>
+      <label>Agree: <input name="agree" type="checkbox"> </label> <br>
+      <label>Password: <input name="pw" type="password"> </label> <br>
+      <label>Gender:<input name="Gender" type="radio" value="Male">
+        Male</label>
+      <label><input name="status" type="radio" value="Female">
+        Female</label> <br>
+      <label>Fav Show:
+          <select name="Show">
+            <option selected disabled> Select below </option>
+            <option value="Psych"> Psych </option>
+            <option value="The office"> The office </option>
+          </select>
+        </label>
+      </form>
+	</div>
+
+	<nav>
+		<a href="../index.html">Back to Homepage</a>
+	</nav>
 </body>
 </html>
