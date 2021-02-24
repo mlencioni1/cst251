@@ -1,0 +1,50 @@
+div#title {
+    font-family: Helvetica, Verdana, Arial, "san serif";
+    background-image: linear-gradient(45deg, #ffffff,#a4dbeb);
+    padding: 25px;
+    font-size: 120%;
+    border: solid 5px #000000;
+    border-radius: 5px ;
+    margin: 20px;
+}
+
+body {
+    font-family: Helvetica, Verdana, Arial, "san serif";
+    background-color: #85b8c7;
+    padding: 25px;
+    font-size: 120%;
+}
+
+div#content {
+    margin: 10px;
+    padding: 50px;
+    background-image: linear-gradient(45deg, #ffffff,#a4dbeb);
+    height: 80vh;
+    border-radius: 5px;
+    border: solid 5px #000000;
+}
+
+h1, h2, h3 {
+    font-family: "Courier New", monospace;
+    border: solid: 1px black;
+}
+
+img {
+    float: right;
+    width: 300px;
+    height: auto;
+    padding: 5px;
+    border: solid 3px #000000;
+    margin: 20px;
+    margin-right: 40px;
+
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
