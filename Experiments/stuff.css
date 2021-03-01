@@ -1,13 +1,40 @@
 /* NOTE:
+
 selector {
   property: value;
 }
 
+(properties)
   background-color:
   border:
   font-weight:
   font-family:
   background-image: linear-gradient
   opacity:
+
+(Selectors)
+  selectors are tagnames from html
+
+  #=id
+  .=class
+  ,= and
+  >= children
+
+
+if use # after selector it calls the id
+  ex: p#red would style a <p> in <div id=red>
+
+if use . after selector it calls the classes
+  ex: p.red would style a <p> in <div class=red>
+
+  ex: div.callout p{   }
+  = any paragraph (p) inside of any div with class(.) callout
+
+  ex: main#title
+  = any class named title in main would be styled
+
+if , used it represents and
+  =
+
 
 */
