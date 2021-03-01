@@ -1,0 +1,84 @@
+div.intro {
+    font-family: Helvetica, Verdana, Arial, "san serif";
+    background-image: linear-gradient(45deg, #ffffff,#babab5);
+    padding: 25px;
+    font-size: 120%;
+    border: solid 5px #000000;
+    border-radius: 5px ;
+    margin: 20px;
+}
+
+body {
+    font-family: Helvetica, Verdana, Arial, "san serif";
+    background-color: #73736f;
+    padding: 25px;
+    font-size: 120%;
+}
+
+div#content {
+    margin: 10px;
+    padding: 50px;
+    background-image: linear-gradient(45deg, #ffffff,#babab5);
+    height: 80vh;
+    border-radius: 5px;
+    border: solid 5px #000000;
+}
+
+.img {
+  position: relative;
+  width: 50%;
+}
+
+h1, h2, h3 {
+    font-family: "Courier New", monospace;
+    border: solid: 1px black;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #c7c7c9;
+}
+
+#image {
+    float: right;
+    width: 300px;
+    height: auto;
+    padding: 5px;
+    border: solid 3px #000000;
+    margin: 20px;
+    margin-right: 40px;
+    display: block;
+}
+
+.img:hover .overlay{
+  opacity: 1;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
