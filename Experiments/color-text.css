@@ -1,0 +1,33 @@
+/* NOTE:
+
+color mods{
+  color:
+  background-color:
+  border-color:
+
+      rgb()
+      rgba()
+      #000000 (hex)
+}
+
+text-decoration:
+    line-through;
+    underline;
+    none;
+
+letter-spacing:(edits spaces inbetween letters)
+word-spacing:(edits spaces inbetween words)
+line-height:(edits spacing inbetween lines of text)
+
+font-family: "Helvetica Neue", Helvetica, Arial, Verdana, Sans-Serif;
+  (list fonts as fall backs)
+  (use " " if font has space in name)
+
+
+
+
+
+
+
+
+ */
