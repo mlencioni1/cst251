@@ -1,0 +1,28 @@
+iframe#fake {
+    width: 90vw;
+    height: 100vh;
+    resize: both;
+    overflow: hidden;
+}
+
+nav a:not(:last-child){
+  margin-right: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+nav a{
+  font-family: "Avenir Next","Helvetica Neue", Helvetica,Arial,sans-serif;
+  color: #f6cc4c;
+}
+
+body{
+  background: #f6f6f4;
+}
+h1{
+  font-family: "Avenir Next","Helvetica Neue", Helvetica,Arial,sans-serif;
+  color: #f6cc4c;
+  width: 100%;
+  text-align: center;
+}
