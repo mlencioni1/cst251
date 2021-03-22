@@ -4,6 +4,12 @@ iframe#fake {
     resize: both;
     overflow: hidden;
 }
+iframe#real {
+    width: 90vw;
+    height: 100vh;
+    resize: both;
+    overflow: hidden;
+}
 
 nav a:not(:last-child){
   margin-right: 25px;
