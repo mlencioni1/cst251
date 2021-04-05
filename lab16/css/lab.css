@@ -1,0 +1,148 @@
+/* NOTE: WIDGETS */
+.widget {
+  position: fixed;
+  height: 80vh;
+  width: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.widget1 {
+  z-index: 900;
+  position: fixed;
+  height: 33vh;
+  width: 33vh;
+  top: -5vh;
+  border-radius: 10px;
+}
+.widget2 {
+  z-index: 800;
+  position: fixed;
+  height: 33vh;
+  width: 33vh;
+  top: 10vh;
+  right: 0;
+  border-radius: 10px;
+}
+.widget3 {
+  z-index: 700;
+  position: fixed;
+  height: 33vh;
+  width: 33vh;
+  top: 35vh;
+  border-radius: 10px;
+  transition: 2s;
+}
+.widget4 {
+  z-index: 600;
+  position: fixed;
+  height: 33vh;
+  width: 33vh;
+  top: 50vh;
+  right: 0;
+  border-radius: 10px;
+}
+
+.widget1:hover{
+  transition: 5s;
+  filter: blur(250px);
+
+}
+
+.widget3:hover{
+  transition: 2s;
+  filter: brightness(5);
+}
+.widget4:hover {
+  transition:  10s;
+  filter: hue-rotate(360deg);
+}
+
+/* NOTE: SUB NAV */
+#sub-nav {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  z-index: 99;
+}
+
+#sub-nav li {
+  float: left;
+}
+
+#sub-nav li:first-child {
+    margin-right: 35px;
+}
+
+#sub-nav ul {
+  list-style: none;
+}
+
+#sub-nav a {
+    font-size: 1.6rem;
+    line-height: 5.5rem;
+    color: white;
+}
+
+/* NOTE: BIG TEXT */
+.bigtext {
+    z-index: 1000;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    text-align: center;
+    pointer-events: none;
+}
+
+h1{
+  color: white;
+  font-size: 200px;
+  text-shadow: 5px 1px 10px black;
+}
+
+/* NOTE: OTHER */
+
+.content{
+  background-image: url("/Users/matthewlencioni/Desktop/cst251/lab16/img/backtree.png"), radial-gradient(#7D6964, #251B19);
+  background-position: center center, bottom;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
+
+img {
+  height: 33vh;
+  width: 33vh;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px 0px black;
+}
+
+.widget1 img, .widget2 img, .widget3 img, .widget4 img{
+  object-fit: cover;
+  object-position:center;
+  height: 33vh;
+  width: 33vh;
+}
+
+.side {
+  z-index: 500;
+  position: fixed;
+  width: 20vw;
+  height: 60vh;
+  right: 0;
+  top: 50%;
+  transform: translate(0,-50%);
+  text-align: center;
+  color: white;
+  margin-right: 10px;
+  column-count: 3;
+  column-width: 100px;
+
+}
+
+h2, p {
+  text-shadow: 1px 1px 5px black;
+}
