@@ -34,7 +34,7 @@
   width: 33vh;
   top: 35vh;
   border-radius: 10px;
-  transition: 2s;
+  transition: 3s;
 }
 .widget4 {
   z-index: 600;
@@ -44,12 +44,16 @@
   top: 50vh;
   right: 0;
   border-radius: 10px;
-  transition: 2s;
+  transition: 5s;
 }
 
 .widget1:hover{
   transition: 5s;
   filter: blur(250px);
+}
+.widget2:hover{
+  transition: 5s;
+  filter: hue-rotate(360deg);
 
 }
 
