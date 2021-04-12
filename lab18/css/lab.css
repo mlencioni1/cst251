@@ -1,6 +1,6 @@
 body, header, footer, main, div, section, nav, aside{
   margin: 10px;
-  padding: 5px
+  padding: 5px;
 }
 body{
   background-image: radial-gradient(#7D6964, #251B19);
@@ -17,8 +17,8 @@ main {
 }
 
 img {
-  width: auto;
-  height: 40vh;
+  width: 40vw;
+  height:auto;
   overflow: scroll;
 }
 
