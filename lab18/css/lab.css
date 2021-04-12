@@ -1,0 +1,33 @@
+body, header, footer, main, div, section, nav, aside{
+  margin: 10px;
+  padding: 5px
+}
+body{
+  background-image: radial-gradient(#7D6964, #251B19);
+}
+
+header, footer, main, nav, div {
+background-color: #6a8555;
+color: white;
+}
+
+
+main {
+  display: flex;
+}
+
+img {
+  width: auto;
+  height: 40vh;
+  overflow: scroll;
+}
+
+h3{
+  text-align: center;
+}
+
+footer a {
+  position: relative;
+  left: 40vw;
+
+}
