@@ -1,0 +1,18 @@
+main{
+  display: grid;
+  grid-column: 1;
+  grid-row: 3;
+}
+
+@media screen and (max-width:800px){
+  .left, .right, .mid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+header, footer, main, nav, div {
+background-color: #6a8555;
+color: white;
+}

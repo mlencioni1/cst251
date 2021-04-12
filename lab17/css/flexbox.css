@@ -1,0 +1,33 @@
+body {
+  overflow: scroll;
+}
+
+main{
+  display: flex;
+}
+
+@media screen and (max-width:800px){
+  .challenge, .problem, .result {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.challenge, .problem, .result {
+  margin: 20px;
+
+}
+
+h1{
+  padding: 20px;
+}
+
+header, footer, main, nav, div {
+background-color: #6a8555;
+color: white;
+}
+
+div {
+  width: 100%;
+}

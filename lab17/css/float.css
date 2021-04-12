@@ -1,0 +1,37 @@
+h1{
+  width:100%;
+}
+
+.left {
+  width: 18%;
+  float: left;
+  padding: 2%;
+}
+.right {
+  width: 18%;
+  float: left;
+  padding: 2%;
+}
+ .mid {
+   width: 55%;
+   float: left;
+ }
+
+ @media screen and (max-width:800px){
+   .left, .right, .mid {
+     width: 100%;
+     display: flex;
+     flex-wrap: wrap;
+   }
+ }
+
+ header, footer, main, nav, div {
+ background-color: #6a8555;
+ color: white;
+ }
+
+footer {
+  position: fixed;
+  bottom: 10px;
+  width: 100vh;
+}

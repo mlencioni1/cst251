@@ -1,0 +1,36 @@
+
+body{
+  overflow: scroll;
+}
+header{
+  height: 10vh;
+  width: 100vh;
+}
+
+main {
+  height: auto;
+}
+
+footer{
+  height: 10vh;
+}
+
+nav {
+
+}
+
+section {
+  display: flex;
+  width: 100vw;
+}
+
+@media screen and (max-width:800px){
+  body {
+    width: 100%;
+  }
+}
+
+header, footer, main, nav, div {
+background-color: #6a8555;
+color: white;
+}
