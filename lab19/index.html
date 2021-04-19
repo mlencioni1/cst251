@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 19 - CSS Framework</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	<link rel="stylesheet" href="/css/master.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- NOTE: Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  </style>
+</head>
+<body>
+	<main class=container-fluid>
+
+		<!-- NOTE: NAVIGATION -->
+		<nav class="navbar navbar-expand-sm bg-dark">
+			<ul class="navbar-nav">
+			    <li class="nav-item">
+			      <a class="nav-link text-white" href="../index.html">Homepage</a>
+			    </li>
+			    <li class="nav-item">
+			      <a class="nav-link text-white" href="./css/lab.css">My CSS</a>
+			    </li>
+			    <li class="nav-item">
+			      <a class="nav-link text-white" href="mailto:mlencioni@csumb.edu">Contact Me</a>
+			    </li>
+					<li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Labs
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="../lab16/index.html">Lab 16</a>
+              <a class="dropdown-item" href="../lab17/index.html">Lab 17</a>
+              <a class="dropdown-item" href="../lab18/index.html">Lab 18</a>
+            </div>
+          </li>
+			  </ul>
+		</nav>
+
+<!-- NOTE: Rows / Content -->
+
+		<div class="row">
+			<div class="col-md-3">
+				<h1><b>Challenges</b></h1> <br>
+				<p>WOW! Creating a site framework in Bootstrap is wayyy easier than creating flexboxes</p>
+			</div>
+  		<div class="col-md-3">
+				<h1><b>Problems</b></h1>
+				<p>I honeslty didn't encounter much of a problem with this lab. It was a
+				nice change of pace from the other CSS formating heavy labs. I can totally
+			see why people tend to use bootstrap to structure their site! </p>
+			</div>
+  		<div class="col-md-3">
+				<h1><b>Results</b></h1> <br>
+				<p> <b>Check it out!</b> <br> This entire page was structured with bootstrap! Isn't that just nifty?</p>
+			</div>
+		</div>
+
+<!-- NOTE: carousel -->
+
+		<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+		<li data-target="#demo" data-slide-to="3"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/naturebark.jpg" alt="Tree Bark" width="500px">
+    </div>
+    <div class="carousel-item">
+      <img src="img/natureleaf.jpg" alt="Leaves" width="500px">
+    </div>
+    <div class="carousel-item">
+      <img src="img/naturetree.jpg" alt="Tree Stump" width="500px">
+    </div>
+		<div class="carousel-item">
+      <img src="img/naturewalk.jpg" alt="Friend in nature" width="500px">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+	</main>
+</body>
+</html>
