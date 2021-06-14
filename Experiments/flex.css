@@ -1,0 +1,18 @@
+/* NOTE: In Html
+<div class=flex>
+blah blah
+</div>
+
+
+BOXES on BOXES
+
+ */
+
+ .flex {
+   display: flex
+ }
+
+ .grid-box{
+   display: grid;
+   grid-template-columns:
+ }
